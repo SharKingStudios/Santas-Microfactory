@@ -1,4 +1,4 @@
-26637908349327880
+26644978612554306
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106805,3 +106805,31 @@ CONN-TH_2EG08217-D2D-DF
 0
 166
 164
+imported_components
+DC-IN-TH_DC-005-A200
+
+
+0
+3
+3
+imported_components
+IND-SMD_L11.6-W10.1
+
+
+0
+2
+2
+imported_components
+TO-263-5_L10.2-W8.9-P1.70-TL
+
+
+0
+6
+6
+imported_components
+USB-C_SMD-TYPE-C-31-M-12
+
+
+0
+22
+20
