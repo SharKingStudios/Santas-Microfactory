@@ -1,0 +1,242 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fd484fb8-74d1-49f3-81df-ce56c2a53e9a")
+	(paper "A3")
+	(title_block
+		(title "Santa's Microfactory")
+		(date "2026-01-04")
+		(company "Logan Peterson")
+	)
+	(lib_symbols)
+	(text "TODO:\nBoard Connector"
+		(exclude_from_sim no)
+		(at -141.478 46.482 0)
+		(effects
+			(font
+				(size 10.16 10.16)
+				(thickness 2.032)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "7eaed597-9326-418c-a979-644c4cebc9da")
+	)
+	(sheet
+		(at 184.15 30.48)
+		(size 66.04 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24e36da5-4f0b-41c5-96d4-35eec10b38bd")
+		(property "Sheetname" "Scoring and Health"
+			(at 184.15 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Scoring and Health.kicad_sch"
+			(at 184.15 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Santas Microfactory Master"
+				(path "/fd484fb8-74d1-49f3-81df-ce56c2a53e9a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.27 30.48)
+		(size 43.18 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "82f491c8-4857-442b-ac96-2d634d5f8315")
+		(property "Sheetname" "State Manager"
+			(at 255.27 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "State Manager.kicad_sch"
+			(at 255.27 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Santas Microfactory Master"
+				(path "/fd484fb8-74d1-49f3-81df-ce56c2a53e9a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 302.26 30.48)
+		(size 73.66 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a87f9bec-b68b-4ed7-a5d5-83252ba797b9")
+		(property "Sheetname" "Input and Output"
+			(at 302.26 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Input and Output.kicad_sch"
+			(at 302.26 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Santas Microfactory Master"
+				(path "/fd484fb8-74d1-49f3-81df-ce56c2a53e9a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 30.48)
+		(size 62.23 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c633a69e-2b53-4f22-99f5-5528a5a18ab5")
+		(property "Sheetname" "Main Conveyor"
+			(at 22.86 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Main Conveyor.kicad_sch"
+			(at 22.86 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Santas Microfactory Master"
+				(path "/fd484fb8-74d1-49f3-81df-ce56c2a53e9a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 30.48)
+		(size 88.9 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cab595da-321e-4ccd-91b1-dd4c0c292f99")
+		(property "Sheetname" "Chutes"
+			(at 90.17 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Chutes.kicad_sch"
+			(at 90.17 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Santas Microfactory Master"
+				(path "/fd484fb8-74d1-49f3-81df-ce56c2a53e9a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

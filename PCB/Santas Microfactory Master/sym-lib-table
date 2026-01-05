@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "imported_components")(type "KiCad")(uri "${KIPRJMOD}/libs/imported_components.kicad_sym")(options "")(descr ""))
+  (lib (name "imported_components_other")(type "KiCad")(uri "C:/Users/conta/OneDrive/Documents/GitHub/Santas-Microfactory/PCB/libs/imported_components_other.kicad_sym")(options "")(descr ""))
+)
