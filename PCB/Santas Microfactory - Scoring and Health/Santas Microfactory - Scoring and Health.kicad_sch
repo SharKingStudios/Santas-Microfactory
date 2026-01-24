@@ -36585,6 +36585,28 @@
 			)
 		)
 	)
+	(global_label "WRONG_4"
+		(shape input)
+		(at 1116.33 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c0add7a-4516-42f8-ba97-34af5868dddf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1128.1447 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TAP_C3"
 		(shape input)
 		(at 1085.85 203.2 180)
@@ -37179,28 +37201,6 @@
 			)
 		)
 	)
-	(global_label "WRONG_5"
-		(shape input)
-		(at 1116.33 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8d7bf4b4-e188-45d5-bf0d-0861133df55d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1128.1447 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CORR_0"
 		(shape input)
 		(at 1116.33 142.24 0)
@@ -37575,28 +37575,6 @@
 			)
 		)
 	)
-	(global_label "WRONG_4"
-		(shape input)
-		(at 1116.33 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "98f685b6-c136-41e9-befa-2b5e8e7abeaa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 1128.1447 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OUT_H6"
 		(shape input)
 		(at 758.19 142.24 0)
@@ -37918,6 +37896,28 @@
 		(uuid "a89cb958-e716-4d3e-bf0f-8787845c92a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 759.24 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WRONG_5"
+		(shape input)
+		(at 1116.33 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa65b4f5-5ee3-4f13-9f53-0550226dd0b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 1128.1447 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
