@@ -10,9 +10,9 @@
 		(company "Logan Peterson")
 	)
 	(lib_symbols)
-	(text "TODO:\nBoard Connector"
+	(text "TODO:\nInput Output board\nInput Chutes board\nInput Main Conveyor board\n"
 		(exclude_from_sim no)
-		(at -141.478 46.482 0)
+		(at 11.43 -55.88 0)
 		(effects
 			(font
 				(size 10.16 10.16)

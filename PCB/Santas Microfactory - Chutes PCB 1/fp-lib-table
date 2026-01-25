@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "imported_components")(type "KiCad")(uri "C:/Users/conta/OneDrive/Documents/GitHub/Santas-Microfactory/PCB/libs/imported_components.pretty")(options "")(descr ""))
+  (lib (name "shenanigans")(type "KiCad")(uri "${KIPRJMOD}/shenanigans.pretty")(options "")(descr ""))
+)
