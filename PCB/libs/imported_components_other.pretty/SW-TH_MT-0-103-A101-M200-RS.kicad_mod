@@ -1,26 +1,162 @@
-(module easyeda2kicad:SW-TH_MT-0-103-A101-M200-RS (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "SW-TH_MT-0-103-A101-M200-RS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.01 -5 0)
+		(layer "F.SilkS")
+		(uuid "a9616e4c-7e4d-4075-9d2e-34e0aa5199c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW-TH_MT-0-103-A101-M200-RS"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "f96d4809-7cbf-4ca8-bc4b-44e9d820a613")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f363af64-f1cc-4ba6-947f-66188f9a5dfb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67161143-6862-4fa4-b845-f8f38063512c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
-	(fp_text reference REF** (at 0 -4.0) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -6.48 4)
+		(end -6.48 -4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b5b12da-527a-4984-95df-b042817ac418")
 	)
-	(fp_text value SW-TH_MT-0-103-A101-M200-RS (at 0 4.0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start 6.5 -4)
+		(end -6.48 -4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c597204f-4f22-46f1-85ee-64f4ce27aa33")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start 6.5 -4)
+		(end 6.5 4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67e4003d-aaf4-4598-915b-05309758c078")
 	)
-	(fp_line (start 6.50 4.00) (end -6.48 4.00) (layer F.SilkS) (width 0.25))
-	(fp_line (start -6.48 4.00) (end -6.48 -4.00) (layer F.SilkS) (width 0.25))
-	(fp_line (start 6.50 -4.00) (end -6.48 -4.00) (layer F.SilkS) (width 0.25))
-	(fp_line (start 6.50 -4.00) (end 6.50 4.00) (layer F.SilkS) (width 0.25))
-	(pad 1 thru_hole rect (at -4.70 0.00 0.00) (size 1.80 3.00) (layers *.Cu *.Mask)(drill oval 1.1999975999999999 2.4999949999999997))
-	(pad 2 thru_hole oval (at 0.00 0.00 0.00) (size 1.80 3.00) (layers *.Cu *.Mask)(drill oval 1.1999975999999999 2.4999949999999997))
-	(pad 3 thru_hole oval (at 4.70 0.00 0.00) (size 1.80 3.00) (layers *.Cu *.Mask)(drill oval 1.1999975999999999 2.4999949999999997))
-	(fp_circle (center -6.50 4.00) (end -6.47 4.00) (layer F.Fab) (width 0.06))
-	(fp_circle (center 0.00 0.00) (end 3.43 0.00) (layer F.SilkS) (width 0.25))
+	(fp_line
+		(start 6.5 4)
+		(end -6.48 4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40f9944f-475d-4e7c-838c-6ee4465dc034")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.43 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "17c0c376-42f2-41e4-ac30-5cd1828bcb48")
+	)
+	(fp_circle
+		(center -6.5 4)
+		(end -6.47 4)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "653bd09f-43f1-4046-b27b-e953b701b640")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e25cf658-6674-46b5-8766-22484b96fc5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -4.7 0)
+		(size 1.8 3)
+		(drill oval 1.199998 2.499995)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b1e31184-f819-4c0f-9710-c6508ec9aa14")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 1.8 3)
+		(drill oval 1.199998 2.499995)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eab38a81-7e46-4e64-b76a-efc8f6cb0907")
+	)
+	(pad "3" thru_hole oval
+		(at 4.7 0)
+		(size 1.8 3)
+		(drill oval 1.199998 2.499995)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dd12a058-b07f-4096-9c82-2ea94ce0071d")
+	)
+	(embedded_fonts no)
 	(model "C:/Users/conta/OneDrive/Documents/GitHub/Santas-Microfactory/PCB/libs/imported_components_other.3dshapes/SW-TH_MT-0-103-A101-M200-RS.wrl"
-		(offset (xyz 0.000 -0.000 0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
 	)
 )
