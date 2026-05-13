@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A3")
+	(title_block
+		(title "Santas Microfactory - State Manager")
+		(date "2026-05-13")
+		(company "Logan Peterson")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)

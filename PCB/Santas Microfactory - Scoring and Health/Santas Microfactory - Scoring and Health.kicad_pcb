@@ -9,7 +9,8 @@
 	(paper "A3")
 	(title_block
 		(title "Santa's Microfactory - Scoring and Health")
-		(date "2026-01-05")
+		(date "2026-05-13")
+		(company "Logan Peterson")
 	)
 	(layers
 		(0 "F.Cu" signal)
